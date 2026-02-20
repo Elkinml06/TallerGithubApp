@@ -42,6 +42,24 @@ fun presentacion() {
         val painter = painterResource(id = R.drawable.person)
         Image(painter = painter,contentDescription =null)
 
+        Text(
+            text = "Elkin Mendoza",
+            fontSize = 28.sp,
+            fontWeight = FontWeight.Bold,
+            textAlign = TextAlign.Center,
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(top = 20.dp)
+        )
+        Text(
+            text = "Ingeniero de Sistemas",
+            fontSize = 20.sp,
+            textAlign = TextAlign.Center,
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(top = 5.dp)
+        )
+
 
 
     }
